@@ -194,7 +194,7 @@ CRIT_NAME = {'loss': 'validation cross-entropy', 'micro': 'validation micro AUC'
 
 
 def ms(values):
-    return f'{np.mean(values):.3f} ± {np.std(values, ddof=1):.3f}'
+    return f'{np.mean(values):.3f}<sub>±{np.std(values, ddof=1):.3f}</sub>'
 
 
 def supervised_table(ont):
@@ -207,11 +207,10 @@ def supervised_table(ont):
             sel = CRIT_NAME[crit].removeprefix('validation ')
             epochs = '/'.join(str(sup[arm, ont, s]['epochs'][crit] + 1) for s in SEEDS)
             for plus in ('', '+D'):
-                name = arm if j == 0 and not plus else ''
+                name = '+ D' if plus else (arm if j == 0 else '')
                 cells = [ms([sup[arm, ont, s]['eval'][crit][m + plus] for s in SEEDS])
                          for m in ('Fmax', 'Smin', 'AUPR', 'AUC')]
-                label = sel + (' + D' if plus else '')
-                rows.append(f'| {name} | {label} | ' + ' | '.join(cells) + f' | {"" if plus else epochs} |')
+                rows.append(f'| {name} | {sel} | ' + ' | '.join(cells) + f' | {"" if plus else epochs} |')
     return '\n'.join(rows)
 
 
