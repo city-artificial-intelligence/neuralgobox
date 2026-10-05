@@ -182,28 +182,27 @@ arithmetic.
 ## Repository layout
 
 ```
-neuralgobox/            NeuralGOBox model: box geometry, axiom losses, scorer, data loading
-neuralgobox_train.py    trains NeuralGOBox and MLPBox
-evaluate_zero_shot.py   zero-shot evaluation of NeuralGOBox and DeepGOZero
-evaluate_fast.py        Fmax, Smin, AUPR; vectorised equivalent of DeepGOZero's evaluate.py
-metrics.py              micro and macro AUC for checkpoint selection
-make_tables.py          recomputes the paper's tables from logs/
-test_neuralgobox.py     tests of the NeuralGOBox model
 logs/                   logs of every reported run
-
-From DeepGOZero, modified:
-deepgozero.py           DeepGOZero
-deepgopro.py            MLP baseline
-evaluate_terms.py       class-centric AUC
-zero_data.py            held-out classes for zero-shot evaluation
-
-From DeepGOZero, unchanged:
-predict_diamond.py      DiamondScore
-run_diamond.sh          DIAMOND hits (with diamond_data.py)
-utils.py, torch_utils.py, aminoacids.py
+neuralgobox/            NeuralGOBox model
+aminoacids.py           DeepGOZero
+deepgopro.py            MLP baseline; DeepGOZero, modified
+deepgozero.py           DeepGOZero, modified
+diamond_data.py         DeepGOZero
+evaluate_fast.py        Fmax, Smin, AUPR; vectorised from DeepGOZero's evaluate.py
+evaluate_terms.py       class-centric AUC; DeepGOZero, modified
+evaluate_zero_shot.py   zero-shot evaluation
+make_tables.py          tables from logs/
+metrics.py              checkpoint selection metrics
+neuralgobox_train.py
+predict_diamond.py      DiamondScore; DeepGOZero
+run_diamond.sh          DIAMOND hits; DeepGOZero
+test_neuralgobox.py
+torch_utils.py          DeepGOZero
+utils.py                DeepGOZero
+zero_data.py            zero-shot held-out classes; DeepGOZero, modified
 ```
 
-Our files also adapt parts of DeepGOZero's code.
+Files not marked DeepGOZero are ours; they also adapt parts of DeepGOZero's code.
 
 ## License
 
