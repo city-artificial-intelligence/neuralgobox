@@ -1,0 +1,27 @@
+=== python evaluate_zero_shot.py -dr data -ont mf --arm neuralgobox -m neuralgobox_zs_mf_s2_sel-loss
+all classes:     n=4791 AUC=0.934183
+defined classes: n=95 AUC=0.892161
+=== python evaluate_zero_shot.py -dr data -ont bp --arm neuralgobox -m neuralgobox_zs_bp_s2_sel-loss
+all classes:     n=11092 AUC=0.830773
+defined classes: n=4598 AUC=0.802168
+=== python evaluate_zero_shot.py -dr data -ont cc --arm neuralgobox -m neuralgobox_zs_cc_s2_sel-loss
+all classes:     n=1492 AUC=0.855986
+defined classes: n=151 AUC=0.923610
+=== python evaluate_zero_shot.py -dr data -ont mf --arm neuralgobox -m neuralgobox_zs_mf_s2_sel-micro
+all classes:     n=4791 AUC=0.907258
+defined classes: n=95 AUC=0.910678
+=== python evaluate_zero_shot.py -dr data -ont bp --arm neuralgobox -m neuralgobox_zs_bp_s2_sel-micro
+all classes:     n=11092 AUC=0.837054
+defined classes: n=4598 AUC=0.814406
+=== python evaluate_zero_shot.py -dr data -ont cc --arm neuralgobox -m neuralgobox_zs_cc_s2_sel-micro
+all classes:     n=1492 AUC=0.844826
+defined classes: n=151 AUC=0.934016
+=== python evaluate_zero_shot.py -dr data -ont mf --arm neuralgobox -m neuralgobox_zs_mf_s2_sel-macro
+all classes:     n=4791 AUC=0.907258
+defined classes: n=95 AUC=0.910678
+=== python evaluate_zero_shot.py -dr data -ont bp --arm neuralgobox -m neuralgobox_zs_bp_s2_sel-macro
+all classes:     n=11092 AUC=0.835447
+defined classes: n=4598 AUC=0.812073
+=== python evaluate_zero_shot.py -dr data -ont cc --arm neuralgobox -m neuralgobox_zs_cc_s2_sel-macro
+all classes:     n=1492 AUC=0.844826
+defined classes: n=151 AUC=0.934016

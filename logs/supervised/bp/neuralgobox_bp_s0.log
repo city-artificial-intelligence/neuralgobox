@@ -1,0 +1,86 @@
+=== command: python neuralgobox_train.py -dr data -ont bp -m neuralgobox_bp_s0 -s 0 -ep 10
+=== start=2026-09-09T20:14:25+01:00
+=== gpu: NVIDIA A100 80GB PCIe
+Epoch 0: Loss - 0.008978998702954382, EL Loss: 1.6206361530918563, Valid loss - 0.008961373110554668, AUC - 0.9689793232169337, termAUC - 0.7855116979361353, lr - 0.0005
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 1: Loss - 0.007342795103407479, EL Loss: 0.8291100992609788, Valid loss - 0.009012703567940667, AUC - 0.9700669735090776, termAUC - 0.799099022860309, lr - 0.0005
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 2: Loss - 0.006030681894011478, EL Loss: 0.7615252825107619, Valid loss - 0.009095452210884418, AUC - 0.9704449423882707, termAUC - 0.8079447522525844, lr - 5e-05
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 3: Loss - 0.005715947745564104, EL Loss: 0.7440020261486772, Valid loss - 0.009264985750127115, AUC - 0.969017772723801, termAUC - 0.8092370536045242, lr - 5e-05
+Saving model (sel-macro)
+Epoch 4: Loss - 0.005440133258932661, EL Loss: 0.7369380925719263, Valid loss - 0.009291474210924857, AUC - 0.9687660605961594, termAUC - 0.8092993448979318, lr - 5e-06
+Saving model (sel-macro)
+Epoch 5: Loss - 0.005414720075161685, EL Loss: 0.735400605718818, Valid loss - 0.009327539578943654, AUC - 0.9684738499858053, termAUC - 0.8093189295336046, lr - 5e-06
+Saving model (sel-macro)
+Epoch 6: Loss - 0.005390879953652332, EL Loss: 0.7342015804014494, Valid loss - 0.00935565119621572, AUC - 0.9682278694178488, termAUC - 0.8092110467888997, lr - 5e-06
+Epoch 7: Loss - 0.005376591258967262, EL Loss: 0.7331093475857416, Valid loss - 0.009381765074139794, AUC - 0.9680125750387031, termAUC - 0.8091301942007134, lr - 5e-06
+Epoch 8: Loss - 0.005352955173028706, EL Loss: 0.732730302720177, Valid loss - 0.009408017271969295, AUC - 0.9677789176078909, termAUC - 0.808979601730208, lr - 5e-06
+Epoch 9: Loss - 0.0053323068793814, EL Loss: 0.7316468973015742, Valid loss - 0.009431777824185148, AUC - 0.9675457392571939, termAUC - 0.8088130715459967, lr - 5e-06
+Loading the best model: neuralgobox_bp_s0_sel-loss
+Test Loss - 0.008485277365842784, AUC - 0.9704662610567575
+Loading the best model: neuralgobox_bp_s0_sel-micro
+Test Loss - 0.008552584032578444, AUC - 0.9718012585957786
+Loading the best model: neuralgobox_bp_s0_sel-macro
+Test Loss - 0.008755601848148414, AUC - 0.9700986459213
+=== evaluation of neuralgobox_bp_s0_sel-loss start=2026-09-09T21:22:38+01:00
+--- python predict_diamond.py -dr data -ont bp -m neuralgobox_bp_s0_sel-loss
+--- python evaluate_fast.py -dr data -ont bp -m neuralgobox_bp_s0_sel-loss_blast
+Fmax: 0.448, Smin: 44.835, threshold: 0.29
+WFmax: 0.375, threshold: 0.29
+AUPR: 0.416
+AVGIC: 31.378
+--- python evaluate_fast.py -dr data -ont bp -m neuralgobox_bp_s0_sel-loss_blast -c
+Fmax: 0.483, Smin: 44.071, threshold: 0.29
+WFmax: 0.416, threshold: 0.27
+AUPR: 0.445
+AVGIC: 33.081
+--- python evaluate_terms.py -dr data -ont bp -m neuralgobox_bp_s0_sel-loss_blast
+GO:0000381 0.8537556682228135
+Average AUC for bp 0.806  (n_terms=11653)
+--- python evaluate_terms.py -dr data -ont bp -m neuralgobox_bp_s0_sel-loss_blast -c
+GO:0000381 0.8544082459046567
+Average AUC for bp 0.811  (n_terms=11653)
+=== end=2026-09-09T21:27:53+01:00
+=== evaluation of neuralgobox_bp_s0_sel-micro start=2026-09-09T21:27:53+01:00
+--- python predict_diamond.py -dr data -ont bp -m neuralgobox_bp_s0_sel-micro
+--- python evaluate_fast.py -dr data -ont bp -m neuralgobox_bp_s0_sel-micro_blast
+Fmax: 0.460, Smin: 44.093, threshold: 0.29
+WFmax: 0.395, threshold: 0.28
+AUPR: 0.433
+AVGIC: 35.785
+--- python evaluate_fast.py -dr data -ont bp -m neuralgobox_bp_s0_sel-micro_blast -c
+Fmax: 0.485, Smin: 43.893, threshold: 0.29
+WFmax: 0.421, threshold: 0.28
+AUPR: 0.442
+AVGIC: 36.009
+--- python evaluate_terms.py -dr data -ont bp -m neuralgobox_bp_s0_sel-micro_blast
+GO:0000381 0.9080032796211703
+Average AUC for bp 0.826  (n_terms=11653)
+--- python evaluate_terms.py -dr data -ont bp -m neuralgobox_bp_s0_sel-micro_blast -c
+GO:0000381 0.9067315897796295
+Average AUC for bp 0.827  (n_terms=11653)
+=== end=2026-09-09T21:33:09+01:00
+=== evaluation of neuralgobox_bp_s0_sel-macro start=2026-09-09T21:33:09+01:00
+--- python predict_diamond.py -dr data -ont bp -m neuralgobox_bp_s0_sel-macro
+--- python evaluate_fast.py -dr data -ont bp -m neuralgobox_bp_s0_sel-macro_blast
+Fmax: 0.461, Smin: 44.176, threshold: 0.35
+WFmax: 0.395, threshold: 0.27
+AUPR: 0.430
+AVGIC: 30.893
+--- python evaluate_fast.py -dr data -ont bp -m neuralgobox_bp_s0_sel-macro_blast -c
+Fmax: 0.484, Smin: 43.931, threshold: 0.3
+WFmax: 0.421, threshold: 0.26
+AUPR: 0.438
+AVGIC: 35.563
+--- python evaluate_terms.py -dr data -ont bp -m neuralgobox_bp_s0_sel-macro_blast
+GO:0000381 0.9190971002125061
+Average AUC for bp 0.828  (n_terms=11653)
+--- python evaluate_terms.py -dr data -ont bp -m neuralgobox_bp_s0_sel-macro_blast -c
+GO:0000381 0.9184612552917357
+Average AUC for bp 0.829  (n_terms=11653)
+=== end=2026-09-09T21:38:25+01:00

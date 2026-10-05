@@ -1,0 +1,29 @@
+=== command: python neuralgobox_train.py -dr data -ont cc -m neuralgobox_zs_cc_s1 -s 1 -ep 10 --zero-shot
+=== start=2026-09-10T22:45:09+01:00
+=== gpu: NVIDIA A100-PCIE-40GB
+Epoch 0: Loss - 0.024472617651200405, EL Loss: 0.7798624880737404, Valid loss - 0.02422105808638864, AUC - 0.9751094827693518, termAUC - 0.8560626686862226, lr - 0.0005
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 1: Loss - 0.019150367106495005, EL Loss: 0.35690431246622417, Valid loss - 0.024271568793941427, AUC - 0.975576300322655, termAUC - 0.8647272988388426, lr - 0.0005
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 2: Loss - 0.015317473226835862, EL Loss: 0.31456064310774867, Valid loss - 0.024691293243732718, AUC - 0.9765711131932875, termAUC - 0.8725313246832593, lr - 5e-05
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 3: Loss - 0.014424680451938104, EL Loss: 0.3084811160246775, Valid loss - 0.025166675317342634, AUC - 0.9759294620343189, termAUC - 0.8730990981761252, lr - 5e-05
+Saving model (sel-macro)
+Epoch 4: Loss - 0.013616832071604353, EL Loss: 0.3052081651015815, Valid loss - 0.0252967344114074, AUC - 0.9758793124497083, termAUC - 0.8732199933294703, lr - 5e-06
+Saving model (sel-macro)
+Epoch 5: Loss - 0.0135414818933613, EL Loss: 0.3045075279738965, Valid loss - 0.025405114813259355, AUC - 0.975772210963732, termAUC - 0.8732131144969636, lr - 5e-06
+Epoch 6: Loss - 0.013481918075599723, EL Loss: 0.30375263845664985, Valid loss - 0.025505718147313155, AUC - 0.9756756438453382, termAUC - 0.873129325953598, lr - 5e-06
+Epoch 7: Loss - 0.013430141997174181, EL Loss: 0.3029359473203627, Valid loss - 0.025601558925376997, AUC - 0.975540058627198, termAUC - 0.8730981541471309, lr - 5e-06
+Epoch 8: Loss - 0.01337250345065665, EL Loss: 0.3020972383834684, Valid loss - 0.025680410006531963, AUC - 0.9754185689391652, termAUC - 0.8728876350517537, lr - 5e-06
+Epoch 9: Loss - 0.01332395177856544, EL Loss: 0.3012337292135218, Valid loss - 0.02576051241269818, AUC - 0.9753102072290055, termAUC - 0.8727908510597657, lr - 5e-06
+Loading the best model: neuralgobox_zs_cc_s1_sel-loss
+Test Loss - 0.02281022716290605, AUC - 0.9774671315453681
+Loading the best model: neuralgobox_zs_cc_s1_sel-micro
+Test Loss - 0.023409958885706687, AUC - 0.9783164682280199
+Loading the best model: neuralgobox_zs_cc_s1_sel-macro
+Test Loss - 0.023969964290980573, AUC - 0.9776830440809869
+=== end=2026-09-10T23:27:39+01:00

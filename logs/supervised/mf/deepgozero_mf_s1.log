@@ -1,0 +1,469 @@
+=== command: python deepgozero.py -dr data -ont mf -m deepgozero_mf_s1 -s 1 -ep 128
+=== start=2026-08-26T20:24:09+01:00
+=== gpu: NVIDIA A100-PCIE-40GB
+Epoch 0: Loss - 0.01670607559966108, EL Loss: 30.065975479678478, Valid loss - 0.012124640538933732, AUC - 0.7004536009024972, termAUC - 0.5588991055320303
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 1: Loss - 0.012159629819143059, EL Loss: 2.1721096149267862, Valid loss - 0.011893536159325214, AUC - 0.7498793449599268, termAUC - 0.5521840848499029
+Saving model (sel-loss)
+Saving model (sel-micro)
+Epoch 2: Loss - 0.011617334050258287, EL Loss: 1.0900320940124342, Valid loss - 0.011610424279102258, AUC - 0.782592707488244, termAUC - 0.5607894312114069
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 3: Loss - 0.011215955190582714, EL Loss: 0.6606423145158096, Valid loss - 0.011143914854065294, AUC - 0.8093882114014869, termAUC - 0.5776371748497007
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 4: Loss - 0.01071561977398186, EL Loss: 0.47047500999463887, Valid loss - 0.01063532748126558, AUC - 0.8548355985935965, termAUC - 0.5973655070449309
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 5: Loss - 0.009681721383564896, EL Loss: 0.37361894755825575, Valid loss - 0.00974091168138243, AUC - 0.9119606497214481, termAUC - 0.6101934276869414
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 6: Loss - 0.009170053229707912, EL Loss: 0.35823340153795713, Valid loss - 0.00932011827383013, AUC - 0.9219766062835956, termAUC - 0.6165271901696255
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 7: Loss - 0.00885037184396364, EL Loss: 0.3410529037570547, Valid loss - 0.009136177754650513, AUC - 0.9282810976969031, termAUC - 0.6207627555680568
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 8: Loss - 0.008564656652922765, EL Loss: 0.3218110656966797, Valid loss - 0.008862763935966151, AUC - 0.9334038691389004, termAUC - 0.6239199887004372
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 9: Loss - 0.008315682724610177, EL Loss: 0.3003758432639166, Valid loss - 0.008597192567374025, AUC - 0.9378035533049043, termAUC - 0.6279443181632741
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 10: Loss - 0.008033243306496908, EL Loss: 0.2763570194173291, Valid loss - 0.008319786913870347, AUC - 0.9417668862939383, termAUC - 0.6297381181792318
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 11: Loss - 0.007745978089210134, EL Loss: 0.250685683597391, Valid loss - 0.0080416517509591, AUC - 0.9456944436141665, termAUC - 0.6365786342080848
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 12: Loss - 0.00749905572071497, EL Loss: 0.2247679103582431, Valid loss - 0.007780256690013977, AUC - 0.9491678559606351, termAUC - 0.6450632453280806
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 13: Loss - 0.007315916343987845, EL Loss: 0.19942245520532323, Valid loss - 0.007632579818545353, AUC - 0.9519406852099052, termAUC - 0.6534184288816524
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 14: Loss - 0.0071467445355952106, EL Loss: 0.17499123472438707, Valid loss - 0.007536517385215986, AUC - 0.9544339969024122, termAUC - 0.66360840446427
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 15: Loss - 0.007037068409220384, EL Loss: 0.1515734495795446, Valid loss - 0.007420032914905321, AUC - 0.9562870011661619, termAUC - 0.6752680841375693
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 16: Loss - 0.006922282580052194, EL Loss: 0.12932273151235965, Valid loss - 0.007341531371431691, AUC - 0.9578416254711021, termAUC - 0.6866786534327519
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 17: Loss - 0.00679436806763926, EL Loss: 0.10821453834208436, Valid loss - 0.007311435163553272, AUC - 0.9595961567412229, termAUC - 0.702130262038427
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 18: Loss - 0.006642279428895067, EL Loss: 0.08816459828132765, Valid loss - 0.007183762391408285, AUC - 0.9613379975462383, termAUC - 0.719549095067866
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 19: Loss - 0.0064524860722355, EL Loss: 0.06926880466639679, Valid loss - 0.007040129313688903, AUC - 0.9632581761401571, termAUC - 0.7381994908463072
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 20: Loss - 0.006269229960819276, EL Loss: 0.059197774797646256, Valid loss - 0.007010660041123629, AUC - 0.9637382226663694, termAUC - 0.7426092855823274
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 21: Loss - 0.006217320340549667, EL Loss: 0.057246193841210824, Valid loss - 0.006988624132992257, AUC - 0.9640332027008925, termAUC - 0.7458701993075182
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 22: Loss - 0.006172477022702067, EL Loss: 0.05529143383549933, Valid loss - 0.006972123123705387, AUC - 0.964265488645071, termAUC - 0.7489413107001156
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 23: Loss - 0.006138223941468647, EL Loss: 0.053363187764240656, Valid loss - 0.006956045156610863, AUC - 0.9644680336437936, termAUC - 0.7512390865375659
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 24: Loss - 0.0061099594434142045, EL Loss: 0.05146222351331173, Valid loss - 0.006941018000777279, AUC - 0.9646388865727228, termAUC - 0.7538156537719846
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 25: Loss - 0.006088269095375928, EL Loss: 0.04958473468106141, Valid loss - 0.00691845944772164, AUC - 0.9648414267721886, termAUC - 0.756380274382868
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 26: Loss - 0.006067415253537944, EL Loss: 0.04775085412481595, Valid loss - 0.006901976102519603, AUC - 0.965046142518748, termAUC - 0.7585904376504795
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 27: Loss - 0.006008517647735354, EL Loss: 0.045964769503306024, Valid loss - 0.00688236074610835, AUC - 0.9652140968409306, termAUC - 0.7604567803650245
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 28: Loss - 0.005989075478174276, EL Loss: 0.04418804159306616, Valid loss - 0.0068630936067728765, AUC - 0.9654041761526839, termAUC - 0.7631071196002401
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 29: Loss - 0.0059378523125657385, EL Loss: 0.04242317145244001, Valid loss - 0.0068420020242532095, AUC - 0.9656041099170677, termAUC - 0.7650289921668196
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 30: Loss - 0.0059091424528822795, EL Loss: 0.04067427468614075, Valid loss - 0.00682096193056731, AUC - 0.9658436299176058, termAUC - 0.7678669024618817
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 31: Loss - 0.005868793475611237, EL Loss: 0.03896209329795152, Valid loss - 0.006801192453574567, AUC - 0.9659927380735547, termAUC - 0.7700778995566149
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 32: Loss - 0.005840607493306501, EL Loss: 0.03726727140549654, Valid loss - 0.006778362322421301, AUC - 0.9662282022355, termAUC - 0.7727598427172298
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 33: Loss - 0.00579451409260781, EL Loss: 0.03558869446460178, Valid loss - 0.006764230021231232, AUC - 0.9664254130076296, termAUC - 0.7745130115794696
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 34: Loss - 0.0057572349038121865, EL Loss: 0.033931212267650966, Valid loss - 0.006733312834763811, AUC - 0.9667190564161685, termAUC - 0.7771087914844013
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 35: Loss - 0.00572865256539787, EL Loss: 0.032301583665564924, Valid loss - 0.006708646632198776, AUC - 0.9669392217386066, termAUC - 0.7805044483541783
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 36: Loss - 0.00568138669875745, EL Loss: 0.030687567999108403, Valid loss - 0.006687810311892203, AUC - 0.9672116015945894, termAUC - 0.7825974268362038
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 37: Loss - 0.005645620896747778, EL Loss: 0.029086497436744716, Valid loss - 0.006664957780213583, AUC - 0.9674232474307136, termAUC - 0.7852909242992571
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 38: Loss - 0.00559792024677538, EL Loss: 0.027505120802055787, Valid loss - 0.006633313652127981, AUC - 0.9677195114700078, termAUC - 0.7883667195380362
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 39: Loss - 0.00555313806346081, EL Loss: 0.025948718945962932, Valid loss - 0.00659848131416809, AUC - 0.9680316417108896, termAUC - 0.7905273730825062
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 40: Loss - 0.005512388310265252, EL Loss: 0.024412054844256154, Valid loss - 0.006574705522507429, AUC - 0.968292448600599, termAUC - 0.793469904587632
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 41: Loss - 0.00546930523721166, EL Loss: 0.02291367097070423, Valid loss - 0.0065461608004711925, AUC - 0.9685629827854303, termAUC - 0.7967865749421741
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 42: Loss - 0.005418410162710217, EL Loss: 0.021442311808974726, Valid loss - 0.0065110449945288045, AUC - 0.9688848489026138, termAUC - 0.8003094782357869
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 43: Loss - 0.005364729251704626, EL Loss: 0.019995596587134245, Valid loss - 0.006468607511903558, AUC - 0.9692055656446822, termAUC - 0.8029240842821763
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 44: Loss - 0.0053007462792419874, EL Loss: 0.01857162367342252, Valid loss - 0.006433639622160366, AUC - 0.969575076504274, termAUC - 0.8060789706262548
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 45: Loss - 0.005229932983793691, EL Loss: 0.01716186799688207, Valid loss - 0.006395980635923999, AUC - 0.9698859070716275, termAUC - 0.8094949248897376
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 46: Loss - 0.005175039941083969, EL Loss: 0.015804116910718247, Valid loss - 0.006354953313157672, AUC - 0.9702415675458593, termAUC - 0.8133492865294254
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 47: Loss - 0.005101399190220049, EL Loss: 0.014580092833231622, Valid loss - 0.0063095448095174065, AUC - 0.9707377340412271, termAUC - 0.8179254387962471
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 48: Loss - 0.005038632688938746, EL Loss: 0.013448209590075241, Valid loss - 0.0062587268805752196, AUC - 0.9711524588563953, termAUC - 0.8220054822243347
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 49: Loss - 0.004951476133840121, EL Loss: 0.012375673430915267, Valid loss - 0.0062069651604230915, AUC - 0.9716265491043043, termAUC - 0.8262538172569276
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 50: Loss - 0.004881829338513228, EL Loss: 0.011321697334527842, Valid loss - 0.006157931379441704, AUC - 0.972026587883068, termAUC - 0.8300579967939639
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 51: Loss - 0.004807467273108193, EL Loss: 0.010304499030732118, Valid loss - 0.006102084308596594, AUC - 0.9724501664715188, termAUC - 0.8342594477084943
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 52: Loss - 0.00470462502590336, EL Loss: 0.009343815678819872, Valid loss - 0.006052798414159389, AUC - 0.9727823591687165, termAUC - 0.8379270283204139
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 53: Loss - 0.004628749862581063, EL Loss: 0.008448665182049663, Valid loss - 0.005991470758315353, AUC - 0.9732462084741561, termAUC - 0.8416571218048065
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 54: Loss - 0.004536282102536724, EL Loss: 0.007612449594568044, Valid loss - 0.0059368117601566375, AUC - 0.9736742849141576, termAUC - 0.8453470370193479
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 55: Loss - 0.004456604082093706, EL Loss: 0.006845958508586826, Valid loss - 0.005879285825150353, AUC - 0.9740184595071931, termAUC - 0.8483345818802266
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 56: Loss - 0.004351074264322321, EL Loss: 0.006153740261059504, Valid loss - 0.0058195754508709625, AUC - 0.9744573406668964, termAUC - 0.85162787753183
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 57: Loss - 0.0042646141971746125, EL Loss: 0.005522862905428146, Valid loss - 0.005759804414230443, AUC - 0.974796558086617, termAUC - 0.8545192907126601
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 58: Loss - 0.0041678060551349535, EL Loss: 0.004946476646973746, Valid loss - 0.00570946640689813, AUC - 0.9751694185193575, termAUC - 0.8571205905630718
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 59: Loss - 0.004069294806776114, EL Loss: 0.004427450807731405, Valid loss - 0.005650741028200303, AUC - 0.9755203301760127, termAUC - 0.8598257710406131
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 60: Loss - 0.003993088067325746, EL Loss: 0.003955364552861093, Valid loss - 0.005601070184881488, AUC - 0.9757946028809423, termAUC - 0.8622083335405204
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 61: Loss - 0.003911064217894619, EL Loss: 0.0035350199033039064, Valid loss - 0.005553171255936225, AUC - 0.9760741269773782, termAUC - 0.8643248683391773
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 62: Loss - 0.003822529509701271, EL Loss: 0.00316522573492826, Valid loss - 0.005509337882644363, AUC - 0.9763305672396377, termAUC - 0.8662539023434085
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 63: Loss - 0.0037567798902218143, EL Loss: 0.0028333202333222277, Valid loss - 0.005473108168336607, AUC - 0.976584105427094, termAUC - 0.8681048579330132
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 64: Loss - 0.0036783828819121, EL Loss: 0.002538322815245079, Valid loss - 0.0054316818913710966, AUC - 0.9768339561965051, termAUC - 0.8698767306914554
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 65: Loss - 0.0036089190475829145, EL Loss: 0.0022918370009833377, Valid loss - 0.0054017793808487195, AUC - 0.9770685259238034, termAUC - 0.871486617390462
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 66: Loss - 0.0035411231547070386, EL Loss: 0.0021080283507113606, Valid loss - 0.0053727254116286835, AUC - 0.9772133049207216, termAUC - 0.8727290525953799
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 67: Loss - 0.003489412560749549, EL Loss: 0.0019866239005021345, Valid loss - 0.00534115601996226, AUC - 0.9774002142386841, termAUC - 0.8741448262558053
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 68: Loss - 0.0034435002988202376, EL Loss: 0.0019251024662948456, Valid loss - 0.005321919292743717, AUC - 0.9775231966224314, termAUC - 0.8752877585691033
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 69: Loss - 0.0033887757716900783, EL Loss: 0.0018932547134370072, Valid loss - 0.005312023050196114, AUC - 0.9776843733829272, termAUC - 0.8760642192965549
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 70: Loss - 0.003337944625813367, EL Loss: 0.0018737109699579109, Valid loss - 0.005279721352936966, AUC - 0.9778808658732211, termAUC - 0.8775251066694285
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 71: Loss - 0.0032933020519927796, EL Loss: 0.0018567198644966459, Valid loss - 0.00527091664262116, AUC - 0.9779788289612786, termAUC - 0.8782466568845084
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 72: Loss - 0.0032398333025181764, EL Loss: 0.0018399870290923804, Valid loss - 0.00524841183796525, AUC - 0.9781886149716336, termAUC - 0.8792042263001434
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 73: Loss - 0.003198742705344741, EL Loss: 0.0018235385312308995, Valid loss - 0.005244495854934766, AUC - 0.9781838545391252, termAUC - 0.8800309162122057
+Saving model (sel-loss)
+Saving model (sel-macro)
+Epoch 74: Loss - 0.0031639580273677428, EL Loss: 0.0018073306184636948, Valid loss - 0.0052258150252912725, AUC - 0.9783592811191288, termAUC - 0.8804532896472554
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 75: Loss - 0.0031333235972704756, EL Loss: 0.0017913731834895837, Valid loss - 0.005211685349543889, AUC - 0.9784636273753142, termAUC - 0.8817498309937428
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 76: Loss - 0.0030998896897440186, EL Loss: 0.0017755481841477056, Valid loss - 0.005205881586741834, AUC - 0.9785303469202065, termAUC - 0.8822592840898594
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 77: Loss - 0.0030638471831437655, EL Loss: 0.0017599390209201203, Valid loss - 0.005194793359953023, AUC - 0.9785844499153945, termAUC - 0.8828382847009439
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 78: Loss - 0.0030306398333471837, EL Loss: 0.0017444397840069665, Valid loss - 0.005192113605638345, AUC - 0.9786178203251296, termAUC - 0.8833639480438621
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 79: Loss - 0.0029967608230577285, EL Loss: 0.0017290417804443244, Valid loss - 0.005173214238935284, AUC - 0.9787315925464968, termAUC - 0.8839843363236116
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 80: Loss - 0.0029765149223627135, EL Loss: 0.0017137256347057553, Valid loss - 0.005171922946880971, AUC - 0.9787655617538973, termAUC - 0.8842393950931692
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 81: Loss - 0.0029449036798149314, EL Loss: 0.001698483946793678, Valid loss - 0.005164088849865255, AUC - 0.9788585875878392, termAUC - 0.8847299995037797
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 82: Loss - 0.0029211508746668537, EL Loss: 0.0016834735704230838, Valid loss - 0.005155470053709688, AUC - 0.9787933737428413, termAUC - 0.8850379708558047
+Saving model (sel-loss)
+Saving model (sel-macro)
+Epoch 83: Loss - 0.0028842884793786354, EL Loss: 0.0016685420056136526, Valid loss - 0.005145325480649869, AUC - 0.9788925333048842, termAUC - 0.8854995160546708
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 84: Loss - 0.002863694172668944, EL Loss: 0.0016536639278796248, Valid loss - 0.005150259869350564, AUC - 0.9789092736514844, termAUC - 0.8858234243818849
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 85: Loss - 0.0028397650388490977, EL Loss: 0.0016390477582123983, Valid loss - 0.005146727480349086, AUC - 0.9790739602479271, termAUC - 0.8859942781924158
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 86: Loss - 0.0028245871183903803, EL Loss: 0.001624568286788262, Valid loss - 0.005136914739740037, AUC - 0.9790263952918014, termAUC - 0.8863457652583403
+Saving model (sel-loss)
+Saving model (sel-macro)
+Epoch 87: Loss - 0.0027957495196084706, EL Loss: 0.0016102670813157869, Valid loss - 0.0051388318983039685, AUC - 0.9790387038030952, termAUC - 0.8865077052396141
+Saving model (sel-macro)
+Epoch 88: Loss - 0.002771849141860851, EL Loss: 0.0015961582891700573, Valid loss - 0.005143929372674653, AUC - 0.9790444315049133, termAUC - 0.8868304246875491
+Saving model (sel-macro)
+Epoch 89: Loss - 0.002743066129095146, EL Loss: 0.0015820951933235613, Valid loss - 0.0051421373262114465, AUC - 0.9790475240135121, termAUC - 0.8871025562143606
+Saving model (sel-macro)
+Epoch 90: Loss - 0.002735565216042482, EL Loss: 0.0015681338821576475, Valid loss - 0.005151690312084698, AUC - 0.9791489734243527, termAUC - 0.8875397446681211
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 91: Loss - 0.0027052639972188442, EL Loss: 0.0015543498836767177, Valid loss - 0.005131136335521227, AUC - 0.979189790346995, termAUC - 0.88791555315015
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 92: Loss - 0.0026827376659193866, EL Loss: 0.0015408121026096284, Valid loss - 0.0051425702692497344, AUC - 0.9791133723376523, termAUC - 0.8873906860838088
+Epoch 93: Loss - 0.0026665412252064678, EL Loss: 0.0015273556233253787, Valid loss - 0.00514361252343016, AUC - 0.9790764071405551, termAUC - 0.8874787176941317
+Epoch 94: Loss - 0.002645924774914012, EL Loss: 0.0015139298197883752, Valid loss - 0.005150004001777796, AUC - 0.979124401067702, termAUC - 0.8875872191736831
+Epoch 95: Loss - 0.002633030070968893, EL Loss: 0.0015005841636752534, Valid loss - 0.0051408731755578805, AUC - 0.9792212681919978, termAUC - 0.8885410497702391
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 96: Loss - 0.002614757936389341, EL Loss: 0.0014872729364947214, Valid loss - 0.005152773863769004, AUC - 0.9791909504428852, termAUC - 0.8877076441194739
+Epoch 97: Loss - 0.002593546144959851, EL Loss: 0.00147399844423718, Valid loss - 0.005154968698375992, AUC - 0.9793217574585111, termAUC - 0.8880382702849333
+Saving model (sel-micro)
+Epoch 98: Loss - 0.0025789538853136272, EL Loss: 0.0014607822826267066, Valid loss - 0.005142907405804311, AUC - 0.9793582104553388, termAUC - 0.8888593555772124
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 99: Loss - 0.0025712240880843215, EL Loss: 0.0014475976213410148, Valid loss - 0.005155056652923425, AUC - 0.9792933900490659, termAUC - 0.888182642120033
+Epoch 100: Loss - 0.002558581964970746, EL Loss: 0.0014345120353211626, Valid loss - 0.005159515084787494, AUC - 0.9792661177306686, termAUC - 0.8885294982506549
+Epoch 101: Loss - 0.002537096864087616, EL Loss: 0.0014215345941761685, Valid loss - 0.005161575953076993, AUC - 0.9792459215023556, termAUC - 0.8879896291799598
+Epoch 102: Loss - 0.002512299461405292, EL Loss: 0.0014086362434188112, Valid loss - 0.005155550792724604, AUC - 0.9793719514253879, termAUC - 0.8891114307411716
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 103: Loss - 0.0024973930648693674, EL Loss: 0.0013957693004986633, Valid loss - 0.005149278579102386, AUC - 0.9794398987270297, termAUC - 0.8892377289494666
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 104: Loss - 0.0024834343845161577, EL Loss: 0.0013830868829303562, Valid loss - 0.005162447342826497, AUC - 0.979442199908824, termAUC - 0.8889235069702038
+Saving model (sel-micro)
+Epoch 105: Loss - 0.00245067377399189, EL Loss: 0.001370593268202104, Valid loss - 0.0051628675267455125, AUC - 0.9794909108039433, termAUC - 0.8890219520879579
+Saving model (sel-micro)
+Epoch 106: Loss - 0.002452631443550491, EL Loss: 0.0013581858533786668, Valid loss - 0.0051829264565770115, AUC - 0.9794613216422958, termAUC - 0.8890255346869944
+Epoch 107: Loss - 0.0024382340040155098, EL Loss: 0.0013457927271412315, Valid loss - 0.005193144142893808, AUC - 0.9794241407774339, termAUC - 0.8883481056239987
+Epoch 108: Loss - 0.00242263974306492, EL Loss: 0.001333445007218538, Valid loss - 0.005192712395052825, AUC - 0.9793361385294935, termAUC - 0.8887196202969004
+Epoch 109: Loss - 0.0024096169221364716, EL Loss: 0.0013212300744056464, Valid loss - 0.005200841313316709, AUC - 0.9792936292035361, termAUC - 0.88903023286824
+Epoch 110: Loss - 0.002391089366513867, EL Loss: 0.001309104536410076, Valid loss - 0.0051852579428149125, AUC - 0.9794148201459136, termAUC - 0.8889719911386573
+Epoch 111: Loss - 0.002375982954941444, EL Loss: 0.0012970510839223782, Valid loss - 0.005195625272712537, AUC - 0.979318251262608, termAUC - 0.8888248250846639
+Epoch 112: Loss - 0.002366882628519227, EL Loss: 0.0012850156756855856, Valid loss - 0.005196797867704715, AUC - 0.9794086124139052, termAUC - 0.8897611844341993
+Saving model (sel-macro)
+Epoch 113: Loss - 0.0023542689228940187, EL Loss: 0.0012729951594356165, Valid loss - 0.005210688750126532, AUC - 0.9793909503535319, termAUC - 0.8894622953833655
+Epoch 114: Loss - 0.002346177012520754, EL Loss: 0.0012610638272404053, Valid loss - 0.005215455817856959, AUC - 0.9793573945127255, termAUC - 0.889356325442463
+Epoch 115: Loss - 0.002331885784672012, EL Loss: 0.0012493298775332962, Valid loss - 0.005228232554647894, AUC - 0.9792494451922812, termAUC - 0.8885419930627425
+Epoch 116: Loss - 0.002322389100032588, EL Loss: 0.0012376848490476308, Valid loss - 0.005208326612288753, AUC - 0.9793150053689266, termAUC - 0.8889998203250371
+Epoch 117: Loss - 0.00230608705847293, EL Loss: 0.001226182572897702, Valid loss - 0.005227347669590797, AUC - 0.9792427976416497, termAUC - 0.8888854990798999
+Epoch 118: Loss - 0.0022959372290797904, EL Loss: 0.001214982964062748, Valid loss - 0.00523305720028778, AUC - 0.9792112121208396, termAUC - 0.8883051682450734
+Epoch 119: Loss - 0.0022857785227394112, EL Loss: 0.0012039049390675668, Valid loss - 0.00523613156928193, AUC - 0.9793049034470702, termAUC - 0.8884450973686365
+Epoch 120: Loss - 0.0022805004041687575, EL Loss: 0.001192892384115325, Valid loss - 0.0052609751001000404, AUC - 0.9792314080872927, termAUC - 0.8874405143562226
+Epoch 121: Loss - 0.0022700375707966846, EL Loss: 0.001182036552825175, Valid loss - 0.005249614661027279, AUC - 0.9791997840643045, termAUC - 0.8886024418590349
+Epoch 122: Loss - 0.002269732904088851, EL Loss: 0.0011713112665030856, Valid loss - 0.0052661456655533545, AUC - 0.9791848647274273, termAUC - 0.8885729998256923
+Epoch 123: Loss - 0.0022561299111009737, EL Loss: 0.0011606403798582994, Valid loss - 0.005282944301143289, AUC - 0.9791621562572116, termAUC - 0.887714623330582
+Epoch 124: Loss - 0.0022395735640521135, EL Loss: 0.0011500715217587793, Valid loss - 0.005275624586890141, AUC - 0.9791760956687915, termAUC - 0.8875545293338475
+Epoch 125: Loss - 0.0022301392625279416, EL Loss: 0.0011395604763263332, Valid loss - 0.005297551678848408, AUC - 0.9790578606226962, termAUC - 0.8863586408267793
+Epoch 126: Loss - 0.0022218394140575055, EL Loss: 0.0011292152746240345, Valid loss - 0.005298037423441807, AUC - 0.9789735896462416, termAUC - 0.8865807665851263
+Epoch 127: Loss - 0.0022168838585398623, EL Loss: 0.001118992408192037, Valid loss - 0.005302933652308725, AUC - 0.9790249773357438, termAUC - 0.8867806326814917
+Loading the best model: deepgozero_mf_s1_sel-loss
+Test Loss - 0.004577991873702558, AUC - 0.9826732232298533
+Loading the best model: deepgozero_mf_s1_sel-micro
+Test Loss - 0.004602902231454209, AUC - 0.9828935739712296
+Loading the best model: deepgozero_mf_s1_sel-macro
+Test Loss - 0.004633337692212081, AUC - 0.982848219726247
+=== evaluation of deepgozero_mf_s1_sel-loss start=2026-08-26T22:03:16+01:00
+--- python predict_diamond.py -dr data -ont mf -m deepgozero_mf_s1_sel-loss
+--- python evaluate_fast.py -dr data -ont mf -m deepgozero_mf_s1_sel-loss_blast
+Fmax: 0.652, Smin: 9.918, threshold: 0.36
+WFmax: 0.601, threshold: 0.36
+AUPR: 0.661
+AVGIC: 10.930
+--- python evaluate_fast.py -dr data -ont mf -m deepgozero_mf_s1_sel-loss_blast -c
+Fmax: 0.665, Smin: 9.635, threshold: 0.27
+WFmax: 0.621, threshold: 0.27
+AUPR: 0.678
+AVGIC: 13.996
+--- python evaluate_terms.py -dr data -ont mf -m deepgozero_mf_s1_sel-loss_blast
+GO:0003735 0.890735701770682
+Average AUC for mf 0.905  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m deepgozero_mf_s1_sel-loss_blast -c
+GO:0003735 0.8931908336884897
+Average AUC for mf 0.908  (n_terms=2679)
+=== end=2026-08-26T22:05:44+01:00
+=== evaluation of deepgozero_mf_s1_sel-micro start=2026-08-26T22:05:44+01:00
+--- python predict_diamond.py -dr data -ont mf -m deepgozero_mf_s1_sel-micro
+--- python evaluate_fast.py -dr data -ont mf -m deepgozero_mf_s1_sel-micro_blast
+Fmax: 0.655, Smin: 9.808, threshold: 0.35
+WFmax: 0.607, threshold: 0.33
+AUPR: 0.664
+AVGIC: 11.531
+--- python evaluate_fast.py -dr data -ont mf -m deepgozero_mf_s1_sel-micro_blast -c
+Fmax: 0.664, Smin: 9.589, threshold: 0.3
+WFmax: 0.621, threshold: 0.29
+AUPR: 0.678
+AVGIC: 13.205
+--- python evaluate_terms.py -dr data -ont mf -m deepgozero_mf_s1_sel-micro_blast
+GO:0003735 0.8915334375125216
+Average AUC for mf 0.905  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m deepgozero_mf_s1_sel-micro_blast -c
+GO:0003735 0.8957588871040008
+Average AUC for mf 0.908  (n_terms=2679)
+=== end=2026-08-26T22:08:12+01:00
+=== evaluation of deepgozero_mf_s1_sel-macro start=2026-08-26T22:08:12+01:00
+--- python predict_diamond.py -dr data -ont mf -m deepgozero_mf_s1_sel-macro
+--- python evaluate_fast.py -dr data -ont mf -m deepgozero_mf_s1_sel-macro_blast
+Fmax: 0.657, Smin: 9.771, threshold: 0.35
+WFmax: 0.609, threshold: 0.35
+AUPR: 0.664
+AVGIC: 11.692
+--- python evaluate_fast.py -dr data -ont mf -m deepgozero_mf_s1_sel-macro_blast -c
+Fmax: 0.663, Smin: 9.603, threshold: 0.3
+WFmax: 0.621, threshold: 0.3
+AUPR: 0.678
+AVGIC: 13.323
+--- python evaluate_terms.py -dr data -ont mf -m deepgozero_mf_s1_sel-macro_blast
+GO:0003735 0.8953873389502672
+Average AUC for mf 0.905  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m deepgozero_mf_s1_sel-macro_blast -c
+GO:0003735 0.9004178095415023
+Average AUC for mf 0.908  (n_terms=2679)
+=== end=2026-08-26T22:10:41+01:00

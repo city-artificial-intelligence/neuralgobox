@@ -1,0 +1,107 @@
+=== command: python neuralgobox_train.py -dr data -ont mf -m mlpbox_mf_s2 -s 2 -ep 24 --el-weight 0
+=== start=2026-09-10T01:52:37+01:00
+=== gpu: NVIDIA A100 80GB PCIe
+Epoch 0: Loss - 0.004831479175990255, EL Loss: 0.0, Valid loss - 0.004692704106370608, AUC - 0.9772741121164825, termAUC - 0.8605899154365946, lr - 0.0005
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 1: Loss - 0.003290038749266166, EL Loss: 0.0, Valid loss - 0.004694447839366538, AUC - 0.9793038721847777, termAUC - 0.8649873065964315, lr - 0.0005
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 2: Loss - 0.0023721844722597173, EL Loss: 0.0, Valid loss - 0.004658979569960918, AUC - 0.9799200342995363, termAUC - 0.8710446108451555, lr - 5e-05
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 3: Loss - 0.0021536609955594196, EL Loss: 0.0, Valid loss - 0.004767342670155423, AUC - 0.9798965386890912, termAUC - 0.8730506507085481, lr - 5e-05
+Saving model (sel-macro)
+Epoch 4: Loss - 0.001979170173840028, EL Loss: 0.0, Valid loss - 0.004784560558341798, AUC - 0.9798209970081494, termAUC - 0.8732401300988408, lr - 5e-06
+Saving model (sel-macro)
+Epoch 5: Loss - 0.0019621497096495824, EL Loss: 0.0, Valid loss - 0.004806267239508175, AUC - 0.9797716010217995, termAUC - 0.8733989377556273, lr - 5e-06
+Saving model (sel-macro)
+Epoch 6: Loss - 0.001947812853317561, EL Loss: 0.0, Valid loss - 0.004827961649390913, AUC - 0.9797424947521072, termAUC - 0.8734844827577711, lr - 5e-06
+Saving model (sel-macro)
+Epoch 7: Loss - 0.0019356104360196116, EL Loss: 0.0, Valid loss - 0.004849115807917856, AUC - 0.9797149028182309, termAUC - 0.8735801288732097, lr - 5e-06
+Saving model (sel-macro)
+Epoch 8: Loss - 0.0019228422269919397, EL Loss: 0.0, Valid loss - 0.004869443544053605, AUC - 0.9796820943111895, termAUC - 0.8736105404135582, lr - 5e-06
+Saving model (sel-macro)
+Epoch 9: Loss - 0.0019080715120796817, EL Loss: 0.0, Valid loss - 0.004889998640421601, AUC - 0.9796393586619314, termAUC - 0.873718008162099, lr - 5e-06
+Saving model (sel-macro)
+Epoch 10: Loss - 0.0018973666203830142, EL Loss: 0.0, Valid loss - 0.004909721693201434, AUC - 0.9796099079492748, termAUC - 0.8737170822236235, lr - 5e-06
+Epoch 11: Loss - 0.0018871551577554256, EL Loss: 0.0, Valid loss - 0.004929952170433742, AUC - 0.9795649516125328, termAUC - 0.8737210263102276, lr - 5e-06
+Saving model (sel-macro)
+Epoch 12: Loss - 0.0018754021355860467, EL Loss: 0.0, Valid loss - 0.004948633068817712, AUC - 0.9795345116935839, termAUC - 0.873755471074598, lr - 5e-06
+Saving model (sel-macro)
+Epoch 13: Loss - 0.0018649192338366027, EL Loss: 0.0, Valid loss - 0.004966853306229625, AUC - 0.979503774753532, termAUC - 0.8736855311255789, lr - 5e-06
+Epoch 14: Loss - 0.0018560723852885925, EL Loss: 0.0, Valid loss - 0.004985260318166443, AUC - 0.9794614770383212, termAUC - 0.8736644201511201, lr - 5e-06
+Epoch 15: Loss - 0.00184478630751661, EL Loss: 0.0, Valid loss - 0.005003384097168843, AUC - 0.9794259764203308, termAUC - 0.8735397937121544, lr - 5e-06
+Epoch 16: Loss - 0.0018369083466847388, EL Loss: 0.0, Valid loss - 0.0050210888719274885, AUC - 0.9793734391800728, termAUC - 0.8734353235056804, lr - 5e-06
+Epoch 17: Loss - 0.0018281319739145284, EL Loss: 0.0, Valid loss - 0.005040583546672549, AUC - 0.979316677650489, termAUC - 0.8733532269154367, lr - 5e-06
+Epoch 18: Loss - 0.0018207786064961958, EL Loss: 0.0, Valid loss - 0.005055786456380572, AUC - 0.9792804544664594, termAUC - 0.8732596516595478, lr - 5e-06
+Epoch 19: Loss - 0.001813692154615217, EL Loss: 0.0, Valid loss - 0.005073569741632257, AUC - 0.9792237523605288, termAUC - 0.8731488976347523, lr - 5e-06
+Epoch 20: Loss - 0.0018056065390378443, EL Loss: 0.0, Valid loss - 0.005089932600302356, AUC - 0.9791958297541823, termAUC - 0.8730940904526385, lr - 5e-06
+Epoch 21: Loss - 0.001797580257027397, EL Loss: 0.0, Valid loss - 0.005107937447194543, AUC - 0.9791485922821249, termAUC - 0.8729580327870532, lr - 5e-06
+Epoch 22: Loss - 0.0017899826412754683, EL Loss: 0.0, Valid loss - 0.005122870311052317, AUC - 0.979120480700006, termAUC - 0.872805103274671, lr - 5e-06
+Epoch 23: Loss - 0.0017835172922876133, EL Loss: 0.0, Valid loss - 0.005142641712778381, AUC - 0.9790284752465426, termAUC - 0.8726934469037232, lr - 5e-06
+Loading the best model: mlpbox_mf_s2_sel-loss
+Test Loss - 0.004274244565749541, AUC - 0.9844392227484788
+Loading the best model: mlpbox_mf_s2_sel-micro
+Test Loss - 0.004274244565749541, AUC - 0.9844392227484788
+Loading the best model: mlpbox_mf_s2_sel-macro
+Test Loss - 0.004514205456871423, AUC - 0.983984042908467
+=== evaluation of mlpbox_mf_s2_sel-loss start=2026-09-10T02:04:59+01:00
+--- python predict_diamond.py -dr data -ont mf -m mlpbox_mf_s2_sel-loss
+--- python evaluate_fast.py -dr data -ont mf -m mlpbox_mf_s2_sel-loss_blast
+Fmax: 0.652, Smin: 9.869, threshold: 0.4
+WFmax: 0.602, threshold: 0.37
+AUPR: 0.636
+AVGIC: 11.754
+--- python evaluate_fast.py -dr data -ont mf -m mlpbox_mf_s2_sel-loss_blast -c
+Fmax: 0.666, Smin: 9.639, threshold: 0.33
+WFmax: 0.621, threshold: 0.33
+AUPR: 0.629
+AVGIC: 13.073
+--- python evaluate_terms.py -dr data -ont mf -m mlpbox_mf_s2_sel-loss_blast
+GO:0003735 0.9559533306377879
+Average AUC for mf 0.890  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m mlpbox_mf_s2_sel-loss_blast -c
+GO:0003735 0.9582736852841431
+Average AUC for mf 0.893  (n_terms=2679)
+=== end=2026-09-10T02:07:21+01:00
+=== evaluation of mlpbox_mf_s2_sel-micro start=2026-09-10T02:07:21+01:00
+--- python predict_diamond.py -dr data -ont mf -m mlpbox_mf_s2_sel-micro
+--- python evaluate_fast.py -dr data -ont mf -m mlpbox_mf_s2_sel-micro_blast
+Fmax: 0.652, Smin: 9.869, threshold: 0.4
+WFmax: 0.602, threshold: 0.37
+AUPR: 0.636
+AVGIC: 11.754
+--- python evaluate_fast.py -dr data -ont mf -m mlpbox_mf_s2_sel-micro_blast -c
+Fmax: 0.666, Smin: 9.639, threshold: 0.33
+WFmax: 0.621, threshold: 0.33
+AUPR: 0.629
+AVGIC: 13.073
+--- python evaluate_terms.py -dr data -ont mf -m mlpbox_mf_s2_sel-micro_blast
+GO:0003735 0.9559533306377879
+Average AUC for mf 0.890  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m mlpbox_mf_s2_sel-micro_blast -c
+GO:0003735 0.9582736852841431
+Average AUC for mf 0.893  (n_terms=2679)
+=== end=2026-09-10T02:09:43+01:00
+=== evaluation of mlpbox_mf_s2_sel-macro start=2026-09-10T02:09:43+01:00
+--- python predict_diamond.py -dr data -ont mf -m mlpbox_mf_s2_sel-macro
+--- python evaluate_fast.py -dr data -ont mf -m mlpbox_mf_s2_sel-macro_blast
+Fmax: 0.653, Smin: 9.852, threshold: 0.39
+WFmax: 0.603, threshold: 0.39
+AUPR: 0.610
+AVGIC: 12.468
+--- python evaluate_fast.py -dr data -ont mf -m mlpbox_mf_s2_sel-macro_blast -c
+Fmax: 0.666, Smin: 9.617, threshold: 0.34
+WFmax: 0.621, threshold: 0.34
+AUPR: 0.614
+AVGIC: 13.116
+--- python evaluate_terms.py -dr data -ont mf -m mlpbox_mf_s2_sel-macro_blast
+GO:0003735 0.9575852284110488
+Average AUC for mf 0.892  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m mlpbox_mf_s2_sel-macro_blast -c
+GO:0003735 0.9591333457182718
+Average AUC for mf 0.894  (n_terms=2679)
+=== end=2026-09-10T02:12:04+01:00

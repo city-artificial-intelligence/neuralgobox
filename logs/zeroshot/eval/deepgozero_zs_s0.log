@@ -1,0 +1,27 @@
+=== python evaluate_zero_shot.py -dr data -ont mf --arm deepgozero -m deepgozero_zs_mf_s0_sel-loss
+all classes:     n=4791 AUC=0.802862
+defined classes: n=95 AUC=0.870347
+=== python evaluate_zero_shot.py -dr data -ont bp --arm deepgozero -m deepgozero_zs_bp_s0_sel-loss
+all classes:     n=11092 AUC=0.734219
+defined classes: n=4598 AUC=0.790921
+=== python evaluate_zero_shot.py -dr data -ont cc --arm deepgozero -m deepgozero_zs_cc_s0_sel-loss
+all classes:     n=1492 AUC=0.819162
+defined classes: n=151 AUC=0.922945
+=== python evaluate_zero_shot.py -dr data -ont mf --arm deepgozero -m deepgozero_zs_mf_s0_sel-micro
+all classes:     n=4791 AUC=0.801511
+defined classes: n=95 AUC=0.868704
+=== python evaluate_zero_shot.py -dr data -ont bp --arm deepgozero -m deepgozero_zs_bp_s0_sel-micro
+all classes:     n=11092 AUC=0.735344
+defined classes: n=4598 AUC=0.790558
+=== python evaluate_zero_shot.py -dr data -ont cc --arm deepgozero -m deepgozero_zs_cc_s0_sel-micro
+all classes:     n=1492 AUC=0.822444
+defined classes: n=151 AUC=0.927004
+=== python evaluate_zero_shot.py -dr data -ont mf --arm deepgozero -m deepgozero_zs_mf_s0_sel-macro
+all classes:     n=4791 AUC=0.800820
+defined classes: n=95 AUC=0.870021
+=== python evaluate_zero_shot.py -dr data -ont bp --arm deepgozero -m deepgozero_zs_bp_s0_sel-macro
+all classes:     n=11092 AUC=0.733615
+defined classes: n=4598 AUC=0.790997
+=== python evaluate_zero_shot.py -dr data -ont cc --arm deepgozero -m deepgozero_zs_cc_s0_sel-macro
+all classes:     n=1492 AUC=0.823044
+defined classes: n=151 AUC=0.927540

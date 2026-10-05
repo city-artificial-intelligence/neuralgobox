@@ -1,0 +1,85 @@
+=== command: python neuralgobox_train.py -dr data -ont mf -m neuralgobox_mf_s2 -s 2 -ep 10
+=== start=2026-09-10T01:05:19+01:00
+=== gpu: NVIDIA A100-PCIE-40GB
+Epoch 0: Loss - 0.00478400869683796, EL Loss: 0.9259591203210706, Valid loss - 0.004625640856102109, AUC - 0.9817586371725594, termAUC - 0.9005468645359522, lr - 0.0005
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 1: Loss - 0.0033790558282508097, EL Loss: 0.3514526545747527, Valid loss - 0.004609973584523513, AUC - 0.9829808372019971, termAUC - 0.9056960898828538, lr - 0.0005
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 2: Loss - 0.002490333997554228, EL Loss: 0.30422984338162173, Valid loss - 0.0045399787325766825, AUC - 0.9838467757998692, termAUC - 0.911592532293569, lr - 5e-05
+Saving model (sel-loss)
+Saving model (sel-micro)
+Saving model (sel-macro)
+Epoch 3: Loss - 0.0022669071744466883, EL Loss: 0.2977050938291418, Valid loss - 0.004635139982703896, AUC - 0.9836599760080741, termAUC - 0.9108164401755582, lr - 5e-05
+Epoch 4: Loss - 0.002090324389354521, EL Loss: 0.2941071422209247, Valid loss - 0.004648485079052902, AUC - 0.9835633598274499, termAUC - 0.910610360555167, lr - 5e-06
+Epoch 5: Loss - 0.002071550751206117, EL Loss: 0.29329040862373906, Valid loss - 0.004670659796379152, AUC - 0.9834696245022508, termAUC - 0.9103990089108867, lr - 5e-06
+Epoch 6: Loss - 0.0020578579963021243, EL Loss: 0.29251363610053344, Valid loss - 0.004689705196679348, AUC - 0.9834197917775619, termAUC - 0.9101975640190115, lr - 5e-06
+Epoch 7: Loss - 0.0020464043343351424, EL Loss: 0.29171698412702235, Valid loss - 0.004705816367641091, AUC - 0.983379460496867, termAUC - 0.9100043947835714, lr - 5e-06
+Epoch 8: Loss - 0.0020329637859111873, EL Loss: 0.2908795570222715, Valid loss - 0.0047239706873716345, AUC - 0.9833168552329293, termAUC - 0.909741945838752, lr - 5e-06
+Epoch 9: Loss - 0.002019071436503999, EL Loss: 0.2899905032814501, Valid loss - 0.004740370869902628, AUC - 0.9832491900427611, termAUC - 0.9095029535664634, lr - 5e-06
+Loading the best model: neuralgobox_mf_s2_sel-loss
+Test Loss - 0.004167766241153004, AUC - 0.9875372791008528
+Loading the best model: neuralgobox_mf_s2_sel-micro
+Test Loss - 0.004167766241153004, AUC - 0.9875372791008528
+Loading the best model: neuralgobox_mf_s2_sel-macro
+Test Loss - 0.004167766241153004, AUC - 0.9875372791008528
+=== evaluation of neuralgobox_mf_s2_sel-loss start=2026-09-10T01:40:32+01:00
+--- python predict_diamond.py -dr data -ont mf -m neuralgobox_mf_s2_sel-loss
+--- python evaluate_fast.py -dr data -ont mf -m neuralgobox_mf_s2_sel-loss_blast
+Fmax: 0.652, Smin: 9.866, threshold: 0.39
+WFmax: 0.600, threshold: 0.35
+AUPR: 0.641
+AVGIC: 11.429
+--- python evaluate_fast.py -dr data -ont mf -m neuralgobox_mf_s2_sel-loss_blast -c
+Fmax: 0.665, Smin: 9.613, threshold: 0.3
+WFmax: 0.620, threshold: 0.3
+AUPR: 0.634
+AVGIC: 13.624
+--- python evaluate_terms.py -dr data -ont mf -m neuralgobox_mf_s2_sel-loss_blast
+GO:0003735 0.9615010545410834
+Average AUC for mf 0.924  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m neuralgobox_mf_s2_sel-loss_blast -c
+GO:0003735 0.9612351426271368
+Average AUC for mf 0.926  (n_terms=2679)
+=== end=2026-09-10T01:42:55+01:00
+=== evaluation of neuralgobox_mf_s2_sel-micro start=2026-09-10T01:42:55+01:00
+--- python predict_diamond.py -dr data -ont mf -m neuralgobox_mf_s2_sel-micro
+--- python evaluate_fast.py -dr data -ont mf -m neuralgobox_mf_s2_sel-micro_blast
+Fmax: 0.652, Smin: 9.866, threshold: 0.39
+WFmax: 0.600, threshold: 0.35
+AUPR: 0.641
+AVGIC: 11.429
+--- python evaluate_fast.py -dr data -ont mf -m neuralgobox_mf_s2_sel-micro_blast -c
+Fmax: 0.665, Smin: 9.613, threshold: 0.3
+WFmax: 0.620, threshold: 0.3
+AUPR: 0.634
+AVGIC: 13.624
+--- python evaluate_terms.py -dr data -ont mf -m neuralgobox_mf_s2_sel-micro_blast
+GO:0003735 0.9615010545410834
+Average AUC for mf 0.924  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m neuralgobox_mf_s2_sel-micro_blast -c
+GO:0003735 0.9612351426271368
+Average AUC for mf 0.926  (n_terms=2679)
+=== end=2026-09-10T01:45:19+01:00
+=== evaluation of neuralgobox_mf_s2_sel-macro start=2026-09-10T01:45:19+01:00
+--- python predict_diamond.py -dr data -ont mf -m neuralgobox_mf_s2_sel-macro
+--- python evaluate_fast.py -dr data -ont mf -m neuralgobox_mf_s2_sel-macro_blast
+Fmax: 0.652, Smin: 9.866, threshold: 0.39
+WFmax: 0.600, threshold: 0.35
+AUPR: 0.641
+AVGIC: 11.429
+--- python evaluate_fast.py -dr data -ont mf -m neuralgobox_mf_s2_sel-macro_blast -c
+Fmax: 0.665, Smin: 9.613, threshold: 0.3
+WFmax: 0.620, threshold: 0.3
+AUPR: 0.634
+AVGIC: 13.624
+--- python evaluate_terms.py -dr data -ont mf -m neuralgobox_mf_s2_sel-macro_blast
+GO:0003735 0.9615010545410834
+Average AUC for mf 0.924  (n_terms=2679)
+--- python evaluate_terms.py -dr data -ont mf -m neuralgobox_mf_s2_sel-macro_blast -c
+GO:0003735 0.9612351426271368
+Average AUC for mf 0.926  (n_terms=2679)
+=== end=2026-09-10T01:47:41+01:00
