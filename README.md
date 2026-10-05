@@ -174,6 +174,8 @@ selection criteria is its Table 4.
 |  | micro AUC | 0.910<sub>±0.002</sub> | 0.836<sub>±0.001</sub> | 0.847<sub>±0.006</sub> | 0.910<sub>±0.001</sub> | 0.812<sub>±0.002</sub> | 0.934<sub>±0.001</sub> |
 |  | macro AUC | 0.910<sub>±0.002</sub> | 0.835<sub>±0.000</sub> | 0.848<sub>±0.007</sub> | 0.909<sub>±0.003</sub> | 0.812<sub>±0.000</sub> | 0.937<sub>±0.002</sub> |
 
+After training and evaluating all models, `python make_figure.py` generates Figure 2 of the paper.
+
 Run on an NVIDIA A100 GPU with the versions in `requirements.txt`, the commands
 above reproduce the reported runs exactly: training logs, checkpoints and test
 predictions. On other GPUs, results can differ slightly through floating-point
@@ -191,6 +193,7 @@ diamond_data.py         DeepGOZero
 evaluate_fast.py        Fmax, Smin, AUPR; vectorised from DeepGOZero's evaluate.py
 evaluate_terms.py       class-centric AUC; DeepGOZero, modified
 evaluate_zero_shot.py   zero-shot evaluation
+make_figure.py          Figure 2
 make_tables.py          tables from logs/
 metrics.py              checkpoint selection metrics
 neuralgobox_train.py
